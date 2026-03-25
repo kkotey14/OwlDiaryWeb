@@ -1,38 +1,65 @@
-OwlDiary
-OwlDiary is a full-stack social journaling platform built as a university capstone project. It gives students a shared digital space to publish reflections, share blog-style posts, personalize their profiles, and engage with one another through likes, comments, and admin-moderated community features.
+# OwlDiary
 
-Live Demo
-Visit the project here:
+OwlDiary is a full-stack social journaling platform built as a university capstone project. It gives students a shared digital space to publish reflections, share blog-style posts, personalize their profiles, and engage with one another through likes, comments, notifications, and moderated community features.
+
+## Live Demo
 
 https://owl-diary.vercel.app
 
-Overview
-Registration-code-based signup flow for controlled onboarding
-Admin approval workflow for new users
-Rich-text diary and blog-style posting
-Likes, comments, and notifications for community interaction
-Personalized profiles with themes, typography, accent colors, and background images
-Profile gallery uploads and customization tools
-Admin tools for moderation and registration code management
-Technical Highlights
-Full-stack architecture with a React frontend and Express backend
-Authentication and role-based authorization
-REST API design with protected routes
-PostgreSQL-backed data modeling and persistence
-Media upload handling for profile and gallery content
-Interactive state management for social features such as likes, comments, and notifications
-Production deployment across hosted frontend, backend, and database services
-Tech Stack
-React
-Vite
-Express.js
-PostgreSQL
-Node.js
-styled-components
-JWT authentication
-Multer
-Project Focus
-This project was built to demonstrate practical software engineering through a real user-facing platform. The emphasis was on building a polished full-stack experience with meaningful interactivity, role-aware permissions, media handling, and deployable infrastructure rather than a static prototype.
+## About This Repository
 
-Context
-OwlDiary was created by me and my teammates as a university capstone project. The official class version is hosted on the SCSU server and is the version currently used for course purposes. This deployment is a separate live demo maintained to showcase the project experience, product design, and technical work in a portfolio setting.
+This public repository is a portfolio showcase for OwlDiary. It includes a project overview, screenshots, and product highlights.
+
+The full source code is not included here.
+
+## Highlights
+
+- Registration-code-based signup for controlled onboarding
+- Admin approval workflow for new users
+- Rich-text diary and blog-style posting
+- Likes, comments, and in-app notifications
+- Personalized user profiles with themes, typography, accent colors, and profile backgrounds
+- Profile gallery support for visual customization
+- Settings tools including account management and data export
+- Full-stack deployment across hosted frontend, backend, and database services
+
+## Tech Stack
+
+- React
+- Vite
+- Express.js
+- PostgreSQL
+- Node.js
+- styled-components
+- JWT authentication
+- Multer
+
+## Screenshots
+
+### Login
+
+![Login page](./login-page.png)
+
+### Create Account
+
+![Signup page](./signup-page.png)
+
+### Dashboard
+
+![Dashboard](./dashboard.png)
+
+### Profile
+
+![Profile page](./profile-page.png)
+
+### Settings
+
+![Settings page](./settings-page.png)
+
+## Project Focus
+
+OwlDiary was built to demonstrate practical software engineering through a polished, user-facing full-stack application. The focus was on shipping meaningful interactivity, role-aware permissions, media handling, and deployable infrastructure rather than a static prototype.
+
+## Context
+
+OwlDiary was created as a university capstone project. The official class version is hosted separately for course use. This version is maintained as a live portfolio demo to showcase the product experience, engineering work, and design direction.
